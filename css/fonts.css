@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'obj';
+    src: url(../fonts/ObjektivMk1-XBold.woff2) format('woff2'),
+        url(../fonts/ObjektivMk1-XBold.woff) format('woff'),
+        url(../fonts/ObjektivMk1-XBold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'veverine';
+    src: url(../fonts/VerveineRegular.woff2) format('woff2'),
+        url(../fonts/VerveineRegular.woff) format('woff'),
+        url(../fonts/VerveineRegular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'viato';
+    src: url(../fonts/Viata-Regular.woff2) format('woff2'),
+        url(../fonts/Viata-Regular.woff) format('woff'),
+        url(../fonts/Viata-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

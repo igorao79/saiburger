@@ -1,0 +1,409 @@
+.page {
+    max-width: 1440px;
+    min-height: 100vh;
+    background-color: #12100d;
+    margin: 0 auto;
+}
+
+/* ============================================================= */
+
+.logo {
+    margin: 65px 0px 0px 523px;
+    width: 394px;
+    height: 47px;
+}
+
+.header {
+    width: 1325px;
+    height: 67px;
+    background-color: #e8e9eb;
+    margin: 66px 0px 0px 57px;
+    background-image: url(../pics/toolbar1.jpg);
+}
+
+/* ============================================================= */
+
+.burgermenu {
+    padding: 10px 0px 0px 163px;
+    gap: 164px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.burger {
+    font-family: 'obj';
+    font-size: 37.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #151313;
+}
+
+.burger:focus {
+    transform: scale(1.1);
+    color: rgb(65, 62, 62);
+    box-shadow: 10px 5px 5px gray;
+}
+
+.burger:hover {
+    transform: scale(1.1);
+    color: rgb(65, 62, 62);
+}
+
+/* ============================================================= */
+
+.menuimage {
+    width: 1325px;
+    height: 729px;
+    margin-left: 57px;
+}
+
+/* ============================================================= */
+
+.about {
+    width: 1325px;
+    height: 517px;
+    background-image: url(../pics/aboutimg.jpg);
+    margin: 82px 0px 0px 57px;
+}
+
+.aboutzag {
+    font-family: 'veverine';
+    font-size: 122.1px;
+    line-height: 122px;
+    font-weight: 400;
+    color: #151313;
+    text-transform: uppercase;
+    padding: 100px 0px 0px 482px;
+}
+
+.abouttext {
+    font-family: 'viato';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #151313;
+    padding: 112px 0px 0px 0px;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+/* ============================================================= */
+
+.menu {
+    width: 1326px;
+    height: 1550px;
+    margin: 82px 0px 0px 52px;
+}
+
+.blockmenu1, .blockmenu2 {
+    width: 100%;
+    height: 518px;
+    display: flex;
+    align-items: center;
+}
+
+.burgerprice1 {
+    width: 325px;
+    height: 518px;
+    background-image: url(../pics/burgermenu.png);
+    padding: 73px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.burgerprice1title {
+    font-family: 'obj';
+font-size: 44.5px;
+line-height: 1.2;
+font-weight: 700;
+color: #12100d;
+margin-bottom: 10px;
+}
+
+.burgerprice1text {
+    font-family: 'viato';
+font-size: 30px;
+line-height: 1.2;
+font-weight: 400;
+color: #12100d;
+padding-right: 42px;
+text-wrap: nowrap;
+}
+
+.blockmenu1img {
+    width: 674px;
+    height: 518px;
+    object-fit: contain;
+}
+
+
+/* ============================================================= */
+
+.burgerprice2 {
+    width: 325px;
+    height: 518px;
+    background-image: url(../pics/burgermenu.png);
+    padding: 73px 0px 0px 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.burgerprice2text {
+    margin-left: -40px;
+}
+
+.blockmenu2, .blockmenu3 {
+    margin-top: -1px;
+    
+}
+
+.pizzalogo {
+    width: 204px;
+    height: 205px;
+    margin-left: 40px;
+}
+
+.menublock {
+    width: 674px;
+    height: 518px;
+    object-fit: contain;
+    background-image: url(../pics/menu.jpg);
+    margin-left: 81px;
+    margin-right: 76px;
+}
+
+
+.menublockzag {
+    font-family: 'veverine';
+font-size: 208.4px;
+line-height: 1.2;
+font-weight: 400;
+font-style: italic;
+color: #000000;
+text-transform: uppercase;
+margin-top: 156px;
+margin-left: 131px;
+}
+
+
+/* ============================================================= */
+
+.sandwichrice1title {
+    font-size: 41.6px;
+line-height: 1.2;
+font-weight: 700;
+color: #12100d;
+}
+
+.sandwichprice1text {
+    font-size: 34.3px;
+line-height: 1.2;
+font-weight: 400;
+color: #12100d;
+margin-left: -60px;
+}
+
+
+.sandwichprice2text {
+    margin-left: -80px;
+}
+
+
+/* ============================================================= */
+
+.burgerprice3 {
+    padding: 153px 0px 0px 30px;
+}
+
+.burgerprice3text {
+    padding-left: 22px;
+}
+
+
+.burgerprice3title {
+    padding-left: 16px;
+}
+
+.burgerprice4text {
+    padding-left: 28px;
+}
+
+
+/* ============================================================= */
+.drink {
+    width: 1324px;
+    margin: 82px 0px 0px 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.drinkimg {
+    width: auto;
+    height: auto;
+}
+
+.drink-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.kuvshin-container-left,
+.kuvshin-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 123px;
+    margin-top: 82px;
+    margin-left: 20px;
+}
+
+.kuvshin1 {
+    width: 101px;
+    height: 86px;
+}
+
+.drinkmenu {
+    width: 963px;
+    height: 429px;
+    background-image: url(../pics/aboutimg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+
+.drinkmenuzag {
+    font-family: 'obj';
+    font-size: 36.3px;
+line-height: 1.2;
+font-weight: 700;
+color: #12100d;
+}
+
+.drinkmenutext {
+    margin-top: 0px;
+    font-family: 'viato';
+    font-size: 29.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #12100d;
+}
+
+
+/* ============================================================= */
+
+
+.dessertmenu {
+    width: 1326px;
+    height: 1550px;
+    margin: 82px 0px 0px 52px;
+}
+
+.menublockzag2dessert {
+    margin-top: 76px;
+    margin-left: 0px;
+    font-size: 166.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    text-align: center;
+}
+
+.blocdessertkmenu2img {
+    width: 999px;
+height: 517px;
+}
+
+.dessertprice1title {
+    font-size: 45.9px;
+line-height: 1.2;
+font-weight: 700;
+color: #12100d;
+text-wrap: nowrap;
+font-family: 'obj';
+}
+
+.dessertprice1text {
+    font-size: 38.7px;
+line-height: 1.2;
+font-weight: 400;
+font-family: 'viato';
+line-height: 1.2;
+font-weight: 400;
+color: #12100d;
+text-wrap: nowrap;
+}
+
+.dessertprice1 {
+    color: #12100d;
+padding: 58px 57px 48px 19px
+}
+
+.dessertprice2 {
+    padding: 100px 23px 68px 68px;
+}
+
+.dessertprice2text {
+    font-family: 'viato';
+    text-wrap: nowrap;
+    font-size: 33.7px;
+line-height: 1.2;
+font-weight: 400;
+color: #12100d;
+margin-left: -10px;
+
+}
+
+
+
+/* ============================================================= */
+
+.milkprice1text {
+font-size: 33.7px;
+line-height: 1.2;
+font-weight: 400;
+color: #12100d;
+}
+
+
+/* ============================================================= */
+
+.contact {
+    width: 1440px;
+    height: 621px;
+    background-image: url(../pics/aboutimg.jpg);
+    margin-top: 82px;
+}
+
+.contactzag {
+    font-family: 'veverine';
+font-size: 122.1px;
+line-height: 122px;
+font-weight: 400;
+color: #151313;
+text-transform: uppercase;
+text-align: center;
+padding-top: 100px;
+}
+
+
+/* ============================================================= */
+
+.social-container {
+    margin: 86px 0px 75px 419px;
+    display: flex;
+    gap: 129px;
+}
+
+a:hover, a:focus {
+        transform: scale(1.1);
+    }
